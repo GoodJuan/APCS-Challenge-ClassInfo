@@ -51,6 +51,16 @@ public class UserInfo {
 	public int getYear(){
 		return year;
 	}
+	public void getInfo(){
+		System.out.println("Your name is " + getName() + 
+		   "\nYour ID number is " + getID() + 
+		   "\nYour date of birth is: " + getDay() + "/" + getMonth() + "/" + getYear());
+	}
+	public void getInfo2(){
+		System.out.println("User #" + getID() + "'s name is " + getName() + 
+		   "\n"+ "User #" + getID() + "'s ID number is " + getID() + 
+		   "\nUser #" + getID() + "'s birthday is " + getDay() + "/" + getMonth() + "/" + getYear());
+	}
 	
 	
 }
